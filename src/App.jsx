@@ -273,13 +273,13 @@ export default function WorkOrdersApp() {
                 onClick={() => { setLoginRole("supervisor"); resetLoginForm(); }}
                 className="wo-btn wo-ticket p-5 pl-8 text-left text-sm"
               >
-                Crew
+                Supervisor
               </button>
               <button
                 onClick={() => { setLoginRole("employee"); resetLoginForm(); }}
                 className="wo-btn wo-ticket p-5 pl-8 text-left text-sm"
               >
-                Supervisor
+                Crew
               </button>
             </div>
           ) : loginRole === "supervisor" ? (
